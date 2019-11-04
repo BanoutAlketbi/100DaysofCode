@@ -13,7 +13,9 @@ val = [
     ("Peter", "Street 21"),
     ("Amy", "Apple st 43"),
     ("Hannah", "Mountain 21"),
-    ("Better", "Green st 24")
+    ("Better", "Green st 24"),
+    ("Viola", "Sideway 1823"),
+    ("Jay Kay", "Main Road 283")
 ]
     
 
