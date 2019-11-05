@@ -1,0 +1,8 @@
+x = open("/Users/banoot/Desktop/week11.txt", "r")
+print(x.read())
+x.close()
+a = open("/Users/banoot/Desktop/week11.txt", "a")
+a.write("￼ The best way we learn anything is by practice and exercise questions")
+a = open("/Users/banoot/Desktop/week11.txt", "r")
+print(a.read())
+a.close()

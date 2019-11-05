@@ -5,12 +5,15 @@ mydb = mysql.connector.connect(
     port=8889,
     user='root',
     password ='root',
-    database='mydatabase'
 )
+print(mydb)
 mycursor = mydb.cursor()
-sql = "INSERT INTO customers (name, address) VALUES (%s, %s)"
-val = ("Michelle", "Blue Road 21")
+mycursor.execute("CREATE DATABASE MyEmployee")
 
-mycursor.execute(sql, val)
-mydb.commit()
-print("1 record inserted, ID:", mycursor.lastrowid)
+mydb = mysql.connector.connect(
+    host='localhost',
+    port=8889,
+    user='root',
+    password ='root',
+    database='MyEmployee'
+)
